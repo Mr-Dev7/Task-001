@@ -1,0 +1,208 @@
+nav ul #contain::after{
+    content: '';
+}
+nav ul #contain {
+    background-color: rgb(7, 96, 110);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 336%;
+    height: 25rem;
+    
+}
+nav ul #contain {
+    background-color: rgb(7, 96, 110);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 336%;
+    
+}
+nav ul #contain .head2 li {
+    font-size: 3.1rem;
+}
+#contain .head1 img{
+    height: 187px;
+}
+#container{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 336%;
+    height: 1448px;
+}
+#container .box2{
+        padding-top: 100px;
+    
+}
+#container .box2 img{
+    padding: 20px 0px 0px 0px;
+
+}
+#container .box1 {
+    padding-top: 115px;
+    margin-left: 0;
+}
+#container .box1 h1{
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 5rem;
+
+}
+#container .box1 p {
+    padding-bottom: 24px;
+    text-align: center;
+    margin: 0;
+    font-size: 3rem;
+    /* padding: 13px 0px; */
+    padding-top: 15px;
+}
+#container .box1 button {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+    padding: 15px 40px;
+    font-size: 3.2rem;
+    margin-top: 38px;
+}
+.heading{
+    font-size: 3rem;
+    padding-bottom: 51px;
+}
+.heading-1{
+    font-size: 5rem;
+}
+#container .box2 img{
+    height: 645px;
+}
+.social {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding-left: 418px; */
+    align-items: center;
+    justify-content: center;
+}
+.social a .image {
+    height: 94px;
+    border-radius: 37px;
+}
+
+/* About Section */
+#about{
+    width: 335%;
+    flex-direction: column;
+    height: 137rem;
+}
+#about #mydetails{
+    flex-direction: column;
+}
+#about .photo{
+    margin-left: 119px;
+    height: 739px;
+}
+#mydetails .new2{
+    padding: 0 40px;
+}
+#mydetails .new2 .para {
+    font-size: 3.2rem;
+}
+
+/* Achievement section */
+#achieve{
+    width: 335%;
+    height: 155rem;
+}
+.heading {
+    font-size: 6rem;
+    padding-bottom: 51px;
+    padding-top: 64px;
+}
+.heading-2{
+    font-size: 5rem;
+}
+.achievement{
+    flex-direction: column;
+
+}
+.qualification {
+    margin-left: 23px;
+    margin-right: 43px;
+    height: 1038px;
+    margin-bottom: 30px;
+}
+.bara {
+    padding-left: 82px;
+    font-size: 4rem;
+    padding-bottom: 11px;
+}
+.chota {
+    padding-left: 150px;
+    margin-right: 127px;
+    font-size: 3rem;
+}
+.skills .bara {
+    font-size: 5rem;
+    padding-left: 92px;
+    padding-bottom: 11px;
+}
+.skills{
+    margin-left: 24px;
+    height: 57rem;
+    margin-right: 44px;
+}
+
+.skills .chota {
+    padding-left: 159px;
+    font-size: 3rem;
+}
+
+/* skills */
+
+#skills {
+    width: 335%;
+    font-size: 3rem;
+    height: 96rem;
+}
+#skills-1 {
+    height: 1145px;
+    margin: 65px 83px;
+}
+.lang{
+    padding: 25px 0;
+}
+/* form */
+#form {
+    width: 336%;
+    height: 86rem;
+}
+#me {
+    margin: 38px 65px;
+}
+.contact-box label {
+    font-size: 3.2rem;
+}
+.contact-box input, .contact-box textarea {
+
+    font-size: 1.9rem;
+}
+.box-5 {
+    padding-left: 94px;
+}
+.contact-box input, .contact-box textarea {
+    font-size: 3rem;
+}
+#submit {
+    font-size: 3rem;
+}
+.heading-4{
+    font-size: 5rem;
+}
+
+/* footer */
+#end {
+    font-size: 4rem;
+    height: 13rem;
+    width: 336%;
+}

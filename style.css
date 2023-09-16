@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Merriweather:ital,wght@1,300&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+
+/* Animation area */
+@keyframes logoimg {
+    from {
+        opacity: 0.7;
+
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes logo {
+    0% {
+        transform: translateX(-4px);
+    }
+
+    25% {
+        transform: translateY(4px);
+    }
+
+    50% {
+        transform: translateX(4px);
+
+    }
+
+    100% {
+        transform: translateY(-4px);
+
+    }
+}
+
+@keyframes skil {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 93%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+header nav ul {
+    background-color: rgb(7, 96, 110);
+}
+
+#contain::before {
+    /* content:""; */
+    position: relative;
+    height: 100%;
+    width: 100%;
+    opacity: 10;
+    z-index: -1;
+}
+
+#contain {
+    padding: 10px 0px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    /* position: relative; */
+    justify-content: space-between;
+    border-bottom: 3px;
+    border-radius: 2px solid rgb(66, 6, 122);
+}
+
+nav ul #contain .head2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+nav ul #contain .head2 li {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Merriweather', serif;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 0 15px;
+}
+
+nav ul #contain .head2 li:hover {
+    font-weight: 1000;
+}
+
+nav ul #contain .head2 li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* main section */
+
+#container {
+    height: 100%;
+    /* background-color: rgb(214, 235, 239); */
+    background-color: rgb(11, 109, 134);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#container .box1 {
+    padding: 150px 0;
+    margin-left: 94px;
+}
+
+#container .box1 h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+#container .box1 h1 span {
+    font-family: 'Kanit', sans-serif;
+    color: rgb(76, 186, 21);
+    font-family: 'Merriweather', serif;
+}
+
+#container .box1 p {
+    padding: 15px 0px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    /* margin: 0px 2px; */
+
+}
+
+#container .box1 button {
+    font-family: 'Merriweather', serif;
+    padding: 0px 9px;
+    margin-left: 30px;
+    font-size: 21px;
+    border-radius: 54px;
+    cursor: none;
+    border-width: 4px;
+
+}
+
+#container .box1 button:hover {
+    background-color: rgb(35, 10, 157);
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px;
+}
+
+.social a .image {
+    margin: 0 8px;
+    padding: 5px;
+    border: 4px double rgb(67, 5, 118);
+    border-radius: 24px;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.social a .image:hover {
+    transform: translateX(4px);
+    background-color: rgb(56, 167, 231);
+    padding-right: 0 10px;
+}
+
+#container .box2 {
+    margin: 0 25px;
+    animation-duration: 2s;
+    animation-name: logoimg;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    padding: 0px;
+}
+
+#container .box2 img {
+    padding: 49px 0;
+    border-radius: 133px 128px;
+
+
+    position: relative;
+    height: 300px;
+}
+
+#container .box2 img {
+    height: 380px;
+}
+
+
+/* Section about */
+
+#about {
+    height: 100%;
+    overflow: hidden;
+    background: rgb(3, 83, 121);
+    box-shadow: 0 0 30px black;
+}
+
+#about #mydetails {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* height: 400px; */
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+
+}
+
+#about .photo {
+    border-radius: 100px;
+    margin-left: 165px;
+    margin-top: 21px;
+    animation-duration: 4s;
+    animation-name: logo;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    height: 447px;
+}
+
+#mydetails .new1 {
+    margin-right: 125px;
+    margin-bottom: 26px;
+}
+
+.heading {
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 14px;
+}
+
+#mydetails .new2 {
+    margin-top: 57px;
+    padding: 2px 11px;
+}
+
+.heading-1 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+
+
+}
+
+.para {
+    color: white;
+    font-size: 1.3rem;
+    padding-bottom: 40px;
+}
+
+/* Achieve Section */
+
+#achieve {
+    height: 100%;
+    background-color: rgb(18, 86, 113);
+    box-shadow: 0 0 30px black;
+    box-sizing: border-box;
+}
+
+.achievement {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 38px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.heading-2 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    padding-bottom: 30px;
+    padding-top: 44px;
+    padding-right: 3px;
+}
+
+
+.qualification {
+    border: 1px solid skyblue;
+    align-items: center;
+    margin-left: 46px;
+    margin-right: 16px;
+    height: 480px;
+
+}
+
+.skills {
+    border: 1px solid skyblue;
+    align-items: center;
+    margin-left: 36px;
+    margin-right: 46px;
+}
+
+.bara {
+    color: white;
+    margin-right: 0px;
+    font-size: 1.6rem;
+    padding-bottom: 2px;
+    padding-left: 63px;
+    padding-top: 14px;
+}
+
+.skills .bara {
+    color: white;
+    margin-right: 0px;
+    font-size: 1.5rem;
+    padding-bottom: 2px;
+    padding-left: 48px;
+
+}
+
+.chota {
+    color: white;
+    /* margin-right: 100px; */
+    padding-bottom: 9px;
+    padding-left: 105px;
+    padding-right: 11px;
+
+}
+
+.skills .chota {
+    color: white;
+    /* margin-right: 100px; */
+    padding-bottom: 9px;
+    padding-left: 92px;
+    padding-right: 10px;
+}
+
+/* Skills */
+
+#skills {
+    background-color: rgb(35 97 120);
+    box-shadow: 0 0 20px black;
+    height: 750px;
+}
+
+.heading-4 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-align: center;
+    font-size: 2.4rem;
+    padding-top: 30px;
+    padding-bottom: 44px;
+}
+
+#skills-1 {
+    box-sizing: border-box;
+    margin: 28px 129px;
+    color: white;
+    box-shadow: 0 0 47px black;
+    height: 528px;
+}
+
+.cont {
+    background-color: rgb(105, 106, 105);
+    width: 93%;
+    margin-left: 32px;
+    border-radius: 45px;
+    animation-name: skil;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.lang {
+    padding: 14px 0;
+    margin-left: 18px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.html {
+    width: 95%;
+    background-color: red;
+}
+
+.css {
+    width: 85%;
+    background-color: rgb(32, 168, 43);
+}
+
+.js {
+    width: 40%;
+    background-color: rgb(23, 11, 197);
+}
+
+.p {
+    width: 78%;
+    background-color: rgb(168, 208, 11);
+}
+
+.see {
+    width: 60%;
+    background-color: rgb(79, 6, 65);
+}
+
+.cpp {
+    width: 65%;
+    background-color: rgb(153, 117, 18);
+}
+
+.skills-2 {
+    text-align: right;
+    padding: 9px 0;
+    border-radius: 45px;
+}
+
+/* Form Section */
+
+#form {
+    height: 660px;
+    /* width: 100%; */
+    background-color: rgb(11, 88, 118);
+    box-shadow: 0 0 30px black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 0 45px black;
+    margin: 14px 271px;
+    padding-bottom: 10px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4px;
+    padding-top: 27px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 9px;
+}
+
+label {
+    padding-right: 9px;
+}
+
+.contact-box form {
+    width: 40%;
+}
+
+.contact-box label {
+    font-size: 1.3rem;
+}
+
+#submit {
+    padding: 4px 17px;
+    margin: 13px 159px;
+
+    border-radius: 20px;
+}
+
+#submit:hover {
+    background-color: rgb(5, 42, 58);
+    color: white;
+}
+
+/* Footer */
+
+#end {
+    height: 95px;
+    background-color: #052a39;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    align-items: center;
+    text-align: center;
+}
